@@ -1195,7 +1195,7 @@ func (s *Server) matchEnd(c *gin.Context) {
 			h, a := game.Map(req["home"]), game.Map(req["away"])
 			gh, ga := game.Int(h["score"]), game.Int(a["score"])
 			sh, sa := game.Int(h["shootout"]), game.Int(a["shootout"])
-			if game.Str(h["id"]) == game.Str(cp["away"]) {
+			if game.Int(h["id"]) == game.Int(cp["away"]) {
 				gh, ga, sh, sa = ga, gh, sa, sh
 			}
 			if game.Int(req["forfeits"]) > 0 {
@@ -1220,7 +1220,7 @@ func (s *Server) matchEnd(c *gin.Context) {
 	if competitive && pending != nil && game.Str(pending["id"]) == mid {
 		h, a := game.Map(req["home"]), game.Map(req["away"])
 		gh, ga := game.Int(h["score"]), game.Int(a["score"])
-		if game.Str(h["id"]) == game.Str(pending["away"]) {
+		if game.Int(h["id"]) == game.Int(pending["away"]) {
 			gh, ga = ga, gh
 		}
 		if game.Int(req["forfeits"]) > 0 {

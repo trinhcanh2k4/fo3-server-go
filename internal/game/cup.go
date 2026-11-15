@@ -443,14 +443,15 @@ func CupRefreshStats(cup map[string]any) {
 		phase := Map(pv)
 		for _, gv := range List(phase["groups"]) {
 			g := Map(gv)
-			var order []int
-			if Str(phase["system"]) == "round-robin" {
-				order = groupTable(g)
-			} else {
-				for i := range List(g["teams"]) {
-					order = append(order, i)
-				}
+			// Only group (round-robin) phases carry standings. The
+			// knock-out phase's group holds the SAME team maps as the
+			// group phase (qualification collects the objects), so
+			// assigning ranks here by array position would overwrite
+			// the qualifiers' group ranks with their seeding slots.
+			if Str(phase["system"]) != "round-robin" {
+				continue
 			}
+			order := groupTable(g)
 			teams := List(g["teams"])
 			for rank, i := range order {
 				t := Map(teams[i])

@@ -526,6 +526,12 @@ func (s *Server) tradeProposal(c *gin.Context) {
 		ids = append(ids, anyToIDStr(v))
 	}
 	give := tradePlayers(team, ids)
+	for _, p := range give {
+		if playerLockedNow(p) {
+			writeJSON(c, map[string]any{"result": false, "reason": "PLAYER_LOCKED"})
+			return
+		}
+	}
 	valid := len(give) >= 2 && len(give) <= 10 && len(give) == len(ids)
 	if valid {
 		seen := map[string]bool{}
@@ -583,6 +589,12 @@ func (s *Server) tradeContract(c *gin.Context) {
 		return
 	}
 	for _, p := range give {
+		if playerLockedNow(p) {
+			writeJSON(c, map[string]any{"result": false, "reason": "PLAYER_LOCKED"})
+			return
+		}
+	}
+	for _, p := range give {
 		s.d.Roster.RemovePlayer(team, p)
 	}
 	offer := game.Map(props[sel])
@@ -625,6 +637,12 @@ func (s *Server) trade3Proposal(c *gin.Context) {
 		ids = append(ids, id)
 	}
 	give := tradePlayers(team, ids)
+	for _, p := range give {
+		if playerLockedNow(p) {
+			writeJSON(c, map[string]any{"result": false, "reason": "PLAYER_LOCKED"})
+			return
+		}
+	}
 	valid := scout != nil && len(give) >= 2 && len(give) <= 10 && len(give) == len(sent)
 	if valid {
 		for _, p := range give {

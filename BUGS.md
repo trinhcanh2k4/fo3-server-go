@@ -41,6 +41,15 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
   store. Exhibition bot-team picking was broken end-to-end (the
   by-id SORT lists were stubs); the league "abandon" button failed
   because the client POSTs to a route that only accepted PUT.
+- Played cup/league results were recorded reversed (a win logged as
+  a loss): the score-orientation check compared numeric team ids
+  through a string-only helper, so the swap fired on every played
+  fixture. Forfeits were unaffected (a separate override sets them).
+- Cup group standings corrupted after the group phase: the knock-out
+  group shares the same team objects as the group phase, and the
+  stats refresh assigned ranks in every phase — advancing teams got
+  their knock-out seeding position written over their group rank.
+  The refresh now assigns ranks only in round-robin phases.
 
 ### Clubs
 - The Club Friendly mode was invisible/unusable behind **two**
@@ -109,6 +118,12 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
 - Formations: 33 "-SW" sweeper variants and 6 team rows were missing
   (a generator filter dropped them); the SW slot is position id 1 —
   mapping it like other slots produced a second goalkeeper.
+- Locked players could still be traded: the player-trade and scout
+  handlers never checked the lock, and the account payload's
+  `lockinfo` was empty — which leaves the client's own lock gates
+  (trade / offer / release / enhance) open, so locked cards stayed
+  selectable in those screens. The trade handlers now reject locked
+  players and `lockinfo` declares all four protections on.
 
 ### Accounts, security, website
 - Predictable legacy session tokens (`FO3-<user>-<uid>`) are only
@@ -153,6 +168,15 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
   engine — nay giải mã thành id sân thật ngay khi lưu. Chọn đội bot
   giao hữu hỏng toàn tuyến (danh sách SORT theo id là stub); nút bỏ
   cuộc giải đấu lỗi vì client gửi POST vào route chỉ nhận PUT.
+- Kết quả cup/league đá thật bị ghi ngược (thắng thành thua): điều
+  kiện đảo chiều tỉ số so sánh id đội (số) qua một hàm chỉ đọc chuỗi
+  nên phép đảo luôn chạy với mọi trận đá thật. Trận xử thua không bị
+  ảnh hưởng (nhánh ghi đè riêng).
+- Bảng xếp hạng vòng bảng cup bị sai sau vòng bảng: group knock-out
+  dùng chung object đội với vòng bảng, mà hàm làm mới thống kê gán
+  hạng ở mọi phase — đội đi tiếp bị ghi đè hạng vòng bảng bằng số
+  hạt giống knock-out. Nay hàm làm mới chỉ gán hạng ở phase
+  round-robin.
 
 ### Câu lạc bộ
 - Chế độ đá clan (Club Friendly) bị ẩn/khóa bởi **hai** cổng tính
@@ -214,6 +238,12 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
 - Sơ đồ đội hình: thiếu 33 biến thể "-SW" (hậu vệ quét) và 6 dòng
   đội (bộ lọc của generator loại bỏ); ô SW là vị trí id 1 — map như
   các ô khác sẽ sinh thủ môn thứ hai.
+- Cầu thủ đã khóa vẫn đem trao đổi được: handler trao đổi (thường
+  và Scout) không kiểm tra khóa, và `lockinfo` trong dữ liệu tài
+  khoản để trống — mà lockinfo trống nghĩa là cả 4 cổng khóa phía
+  client (trao đổi / rao bán / giải phóng / cường hóa) đều mở, thẻ
+  đã khóa vẫn chọn được ở các màn đó. Nay handler trao đổi từ chối
+  cầu thủ đang khóa và `lockinfo` bật cả 4 cờ bảo vệ.
 
 ### Tài khoản, bảo mật, website
 - Token phiên legacy đoán được (`FO3-<user>-<uid>`) chỉ còn hiệu
