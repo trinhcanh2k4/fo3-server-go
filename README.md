@@ -10,6 +10,17 @@ Server riêng (private server) cho game **FIFA Online 3**, viết lại hoàn to
 
 > Đây là dự án fan-made phục vụ học tập và chơi cá nhân/nhóm nhỏ. Không liên kết với EA, Garena hay Nexon.
 
+## Nguồn gốc
+
+Repo này được phát triển dựa trên (fork từ) hai dự án mã nguồn mở đi trước:
+
+- [dtknd123/FO3-Server-Offline](https://github.com/dtknd123/FO3-Server-Offline)
+- [soloplayer24/FIFA-ONLINE-3-Private-Server](https://github.com/soloplayer24/FIFA-ONLINE-3-Private-Server)
+
+Server Python trong các dự án đó là nền tảng giao thức và dữ liệu ban đầu; repo này viết lại toàn bộ server bằng Go + Gin trên nền tảng đó.
+
+*This repository builds upon (is a fork of) [dtknd123/FO3-Server-Offline](https://github.com/dtknd123/FO3-Server-Offline) and [soloplayer24/FIFA-ONLINE-3-Private-Server](https://github.com/soloplayer24/FIFA-ONLINE-3-Private-Server): their Python server provided the original protocol and data foundation, fully rewritten here in Go + Gin.*
+
 ## 1. Kiến trúc tổng quan
 
 ```
