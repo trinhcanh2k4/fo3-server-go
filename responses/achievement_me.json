@@ -1,0 +1,7536 @@
+{
+  "summary": {
+    "done": 0,
+    "total": 34
+  },
+  "achievement": [
+    {
+      "id": "ach_1_1",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 2,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 2,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "ach_1_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 1,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 6,
+        "todo": 6,
+        "detail": {
+          "current": 1,
+          "total": 6
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 1,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 1,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 1,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 1,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 1,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 18,
+        "todo": 18,
+        "detail": {
+          "current": 1,
+          "total": 18
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 21,
+        "todo": 21,
+        "detail": {
+          "current": 1,
+          "total": 21
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 1,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 1,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 1,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 40,
+        "todo": 40,
+        "detail": {
+          "current": 1,
+          "total": 40
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 45,
+        "todo": 45,
+        "detail": {
+          "current": 1,
+          "total": 45
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 1,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 55,
+        "todo": 55,
+        "detail": {
+          "current": 1,
+          "total": 55
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 60,
+        "todo": 60,
+        "detail": {
+          "current": 1,
+          "total": 60
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 65,
+        "todo": 65,
+        "detail": {
+          "current": 1,
+          "total": 65
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 70,
+        "todo": 70,
+        "detail": {
+          "current": 1,
+          "total": 70
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 1,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 80,
+        "todo": 80,
+        "detail": {
+          "current": 1,
+          "total": 80
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 85,
+        "todo": 85,
+        "detail": {
+          "current": 1,
+          "total": 85
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 90,
+        "todo": 90,
+        "detail": {
+          "current": 1,
+          "total": 90
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 95,
+        "todo": 95,
+        "detail": {
+          "current": 1,
+          "total": 95
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 98,
+        "todo": 98,
+        "detail": {
+          "current": 1,
+          "total": 98
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 1,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1100,
+        "todo": 1100,
+        "detail": {
+          "current": 0,
+          "total": 1100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1300,
+        "todo": 1300,
+        "detail": {
+          "current": 0,
+          "total": 1300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1050,
+        "todo": 1050,
+        "detail": {
+          "current": 0,
+          "total": 1050
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1200,
+        "todo": 1200,
+        "detail": {
+          "current": 0,
+          "total": 1200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1400,
+        "todo": 1400,
+        "detail": {
+          "current": 0,
+          "total": 1400
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 63,
+        "todo": 63,
+        "detail": {
+          "current": 0,
+          "total": 63
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_1",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "misc_2",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "misc_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 11,
+        "todo": 11,
+        "detail": {
+          "current": 0,
+          "total": 11
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 1,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50000000,
+        "todo": 50000000,
+        "detail": {
+          "current": 0,
+          "total": 50000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 0,
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 2,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 2,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 0,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 250,
+        "todo": 250,
+        "detail": {
+          "current": 0,
+          "total": 250
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100000000,
+        "todo": 100000000,
+        "detail": {
+          "current": 0,
+          "total": 100000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500000000,
+        "todo": 500000000,
+        "detail": {
+          "current": 0,
+          "total": 500000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2000000000,
+        "todo": 2000000000,
+        "detail": {
+          "current": 0,
+          "total": 2000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10000000000,
+        "todo": 10000000000,
+        "detail": {
+          "current": 0,
+          "total": 10000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50000000000,
+        "todo": 50000000000,
+        "detail": {
+          "current": 0,
+          "total": 50000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 0,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 0,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_20",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1500,
+        "todo": 1500,
+        "detail": {
+          "current": 0,
+          "total": 1500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1700,
+        "todo": 1700,
+        "detail": {
+          "current": 0,
+          "total": 1700
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1600,
+        "todo": 1600,
+        "detail": {
+          "current": 0,
+          "total": 1600
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1800,
+        "todo": 1800,
+        "detail": {
+          "current": 0,
+          "total": 1800
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1950,
+        "todo": 1950,
+        "detail": {
+          "current": 0,
+          "total": 1950
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_21",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 0,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_22",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_23",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 0,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_24",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 300,
+        "todo": 300,
+        "detail": {
+          "current": 0,
+          "total": 300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500,
+        "todo": 500,
+        "detail": {
+          "current": 0,
+          "total": 500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_25",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_26",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_27",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 0,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_28",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_29",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 300,
+        "todo": 300,
+        "detail": {
+          "current": 0,
+          "total": 300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_30",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500,
+        "todo": 500,
+        "detail": {
+          "current": 0,
+          "total": 500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_31",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 1,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_32",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_11",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 150,
+        "todo": 150,
+        "detail": {
+          "current": 0,
+          "total": 150
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_12",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_33",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_1_1",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 2,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 2,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "ach_1_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 1,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 6,
+        "todo": 6,
+        "detail": {
+          "current": 1,
+          "total": 6
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 1,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 1,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 1,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 1,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 1,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 18,
+        "todo": 18,
+        "detail": {
+          "current": 1,
+          "total": 18
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 21,
+        "todo": 21,
+        "detail": {
+          "current": 1,
+          "total": 21
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 1,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 1,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 1,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 40,
+        "todo": 40,
+        "detail": {
+          "current": 1,
+          "total": 40
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 45,
+        "todo": 45,
+        "detail": {
+          "current": 1,
+          "total": 45
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 1,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 55,
+        "todo": 55,
+        "detail": {
+          "current": 1,
+          "total": 55
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 60,
+        "todo": 60,
+        "detail": {
+          "current": 1,
+          "total": 60
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 65,
+        "todo": 65,
+        "detail": {
+          "current": 1,
+          "total": 65
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 70,
+        "todo": 70,
+        "detail": {
+          "current": 1,
+          "total": 70
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 1,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 80,
+        "todo": 80,
+        "detail": {
+          "current": 1,
+          "total": 80
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 85,
+        "todo": 85,
+        "detail": {
+          "current": 1,
+          "total": 85
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 90,
+        "todo": 90,
+        "detail": {
+          "current": 1,
+          "total": 90
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 95,
+        "todo": 95,
+        "detail": {
+          "current": 1,
+          "total": 95
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 98,
+        "todo": 98,
+        "detail": {
+          "current": 1,
+          "total": 98
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 1,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 4,
+        "todo": 4,
+        "detail": {
+          "current": 0,
+          "total": 4
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1100,
+        "todo": 1100,
+        "detail": {
+          "current": 0,
+          "total": 1100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1300,
+        "todo": 1300,
+        "detail": {
+          "current": 0,
+          "total": 1300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1050,
+        "todo": 1050,
+        "detail": {
+          "current": 0,
+          "total": 1050
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1200,
+        "todo": 1200,
+        "detail": {
+          "current": 0,
+          "total": 1200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1400,
+        "todo": 1400,
+        "detail": {
+          "current": 0,
+          "total": 1400
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 63,
+        "todo": 63,
+        "detail": {
+          "current": 0,
+          "total": 63
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_1",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "misc_2",
+      "complete": true,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      },
+      "completedat": "2026-11-12T16:12:32.000Z"
+    },
+    {
+      "id": "misc_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 11,
+        "todo": 11,
+        "detail": {
+          "current": 0,
+          "total": 11
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 1,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50000000,
+        "todo": 50000000,
+        "detail": {
+          "current": 0,
+          "total": 50000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 0,
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 2,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 2,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 8,
+        "todo": 8,
+        "detail": {
+          "current": 0,
+          "total": 8
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 0,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 250,
+        "todo": 250,
+        "detail": {
+          "current": 0,
+          "total": 250
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_1",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100000000,
+        "todo": 100000000,
+        "detail": {
+          "current": 0,
+          "total": 100000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_2",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500000000,
+        "todo": 500000000,
+        "detail": {
+          "current": 0,
+          "total": 500000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2000000000,
+        "todo": 2000000000,
+        "detail": {
+          "current": 0,
+          "total": 2000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10000000000,
+        "todo": 10000000000,
+        "detail": {
+          "current": 0,
+          "total": 10000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50000000000,
+        "todo": 50000000000,
+        "detail": {
+          "current": 0,
+          "total": 50000000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_19",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 25,
+        "todo": 25,
+        "detail": {
+          "current": 0,
+          "total": 25
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_5",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 35,
+        "todo": 35,
+        "detail": {
+          "current": 0,
+          "total": 35
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 0,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_7_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_20",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_3",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1500,
+        "todo": 1500,
+        "detail": {
+          "current": 0,
+          "total": 1500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1700,
+        "todo": 1700,
+        "detail": {
+          "current": 0,
+          "total": 1700
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1600,
+        "todo": 1600,
+        "detail": {
+          "current": 0,
+          "total": 1600
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1800,
+        "todo": 1800,
+        "detail": {
+          "current": 0,
+          "total": 1800
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_8_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1950,
+        "todo": 1950,
+        "detail": {
+          "current": 0,
+          "total": 1950
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_21",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 75,
+        "todo": 75,
+        "detail": {
+          "current": 0,
+          "total": 75
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_9_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 100,
+        "todo": 100,
+        "detail": {
+          "current": 0,
+          "total": 100
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_22",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_4",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 15,
+        "todo": 15,
+        "detail": {
+          "current": 0,
+          "total": 15
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_10_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_23",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_11_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 0,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_24",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 300,
+        "todo": 300,
+        "detail": {
+          "current": 0,
+          "total": 300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_12_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500,
+        "todo": 500,
+        "detail": {
+          "current": 0,
+          "total": 500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_25",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_13_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_26",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 30,
+        "todo": 30,
+        "detail": {
+          "current": 0,
+          "total": 30
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_14_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_27",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_15_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 12,
+        "todo": 12,
+        "detail": {
+          "current": 0,
+          "total": 12
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_28",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_16_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_29",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_17_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 300,
+        "todo": 300,
+        "detail": {
+          "current": 0,
+          "total": 300
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_30",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_18_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 500,
+        "todo": 500,
+        "detail": {
+          "current": 0,
+          "total": 500
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_31",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_6",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 0,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_7",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_8",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 50,
+        "todo": 50,
+        "detail": {
+          "current": 0,
+          "total": 50
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_9",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_10",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 1,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_32",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_11",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 150,
+        "todo": 150,
+        "detail": {
+          "current": 0,
+          "total": 150
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "misc_12",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 200,
+        "todo": 200,
+        "detail": {
+          "current": 0,
+          "total": 200
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": "ach_33",
+      "complete": false,
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 2,
+        "todo": 2,
+        "detail": {
+          "current": 0,
+          "total": 2
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    }
+  ],
+  "quest": [
+    {
+      "id": 0,
+      "progress": {
+        "detail": {
+          "current": 0
+        }
+      }
+    },
+    {
+      "id": 1,
+      "progress": {
+        "detail": {
+          "current": 0
+        }
+      }
+    },
+    {
+      "id": 2,
+      "progress": {
+        "detail": {
+          "current": 0
+        }
+      }
+    },
+    {
+      "id": 3,
+      "progress": {
+        "detail": {
+          "current": 0
+        }
+      }
+    },
+    {
+      "id": 4,
+      "progress": {
+        "detail": {
+          "current": 0
+        }
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": 0,
+      "type": "daily",
+      "gp": 10,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 1,
+      "type": "daily",
+      "gp": 15,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 2,
+      "type": "daily",
+      "gp": 20,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 3,
+      "type": "daily",
+      "gp": 20,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 4,
+      "type": "daily",
+      "gp": 15,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 5,
+      "type": "daily",
+      "gp": 20,
+      "complete": true,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 1,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": true,
+        "grade": 1
+      }
+    },
+    {
+      "id": 6,
+      "type": "daily",
+      "gp": 10,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 11,
+        "todo": 11,
+        "detail": {
+          "current": 0,
+          "total": 11
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 7,
+      "type": "daily",
+      "gp": 15,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 1,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 8,
+      "type": "daily",
+      "gp": 25,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 1,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 9,
+      "type": "daily",
+      "gp": 30,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 1,
+        "total": 20,
+        "todo": 20,
+        "detail": {
+          "current": 1,
+          "total": 20
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 10,
+      "type": "weekly",
+      "gp": 50,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 3,
+        "todo": 3,
+        "detail": {
+          "current": 0,
+          "total": 3
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 11,
+      "type": "weekly",
+      "gp": 50,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10,
+        "todo": 10,
+        "detail": {
+          "current": 0,
+          "total": 10
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 12,
+      "type": "weekly",
+      "gp": 80,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 5,
+        "todo": 5,
+        "detail": {
+          "current": 0,
+          "total": 5
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 13,
+      "type": "weekly",
+      "gp": 80,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 1,
+        "todo": 1,
+        "detail": {
+          "current": 0,
+          "total": 1
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    },
+    {
+      "id": 14,
+      "type": "weekly",
+      "gp": 100,
+      "complete": false,
+      "completedat": "2026-11-01T00:00:00.000Z",
+      "progress": {
+        "grade": 1,
+        "current": 0,
+        "total": 10000000,
+        "todo": 10000000,
+        "detail": {
+          "current": 0,
+          "total": 10000000
+        }
+      },
+      "rewards": {
+        "available": false,
+        "grade": 1
+      }
+    }
+  ],
+  "questbank": {
+    "expire": [
+      "2026-11-15T17:00:00.000Z",
+      "2026-11-22T17:00:00.000Z"
+    ],
+    "current": [
+      {
+        "id": 0,
+        "name": "\u0110i\u1ec3m Danh H\u1eb1ng Ng\u00e0y",
+        "desc": "\u0110\u0103ng nh\u1eadp v\u00e0 qu\u1ea3n l\u00fd \u0111\u1ed9i b\u00f3ng h\u00e0ng ng\u00e0y.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 500000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 1,
+        "name": "Th\u1eed S\u1ee9c Thi \u0110\u1ea5u",
+        "desc": "Tham gia 1 tr\u1eadn \u0111\u1ea5u b\u1ea5t k\u1ef3 (PVP, Gi\u1ea3 L\u1eadp ho\u1eb7c \u0110\u1ea5u Gi\u1ea3i).",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 600000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 2,
+        "name": "Kh\u00e1t Khao Chi\u1ebfn Th\u1eafng",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng \u00edt nh\u1ea5t 1 tr\u1eadn \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 800000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 3,
+        "name": "\u0110\u1ea5u Tr\u01b0\u1eddng X\u1ebfp H\u1ea1ng",
+        "desc": "Tham gia tranh t\u00e0i \u1edf ch\u1ebf \u0111\u1ed9 \u0110\u1ea5u X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 4,
+        "name": "Chi\u1ebfn Thu\u1eadt B\u1eadc Th\u1ea7y",
+        "desc": "Thi\u1ebft l\u1eadp v\u00e0 l\u01b0u 6 chi\u1ebfn thu\u1eadt \u0111\u1ed9i b\u00f3ng ph\u00f9 h\u1ee3p.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 700000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 5,
+        "name": "N\u00e2ng C\u1ea5p \u0110\u1ed9i H\u00ecnh",
+        "desc": "N\u00e2ng c\u1ea5p v\u00e0 t\u0103ng c\u01b0\u1eddng s\u1ee9c m\u1ea1nh c\u1ea7u th\u1ee7 trong \u0111\u1ed9i.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 900000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 6,
+        "name": "M\u1edf R\u1ed9ng C\u00e2u L\u1ea1c B\u1ed9",
+        "desc": "S\u1edf h\u1eefu t\u1ed1i thi\u1ec3u 11 c\u1ea7u th\u1ee7 trong danh s\u00e1ch \u0111\u1ed9i b\u00f3ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 0,
+        "todo": 11,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 120000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 7,
+        "name": "HLV Tri\u1ec3n V\u1ecdng Lv.5",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.5 \u0111\u1ec3 m\u1edf kh\u00f3a k\u1ef9 n\u0103ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 150000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 8,
+        "name": "HLV Chuy\u00ean Nghi\u1ec7p Lv.10",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.10 kh\u1eb3ng \u0111\u1ecbnh v\u1ecb th\u1ebf.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 25,
+        "point": 25,
+        "current": 1,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 200000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 9,
+        "name": "HLV \u0110\u1eb3ng C\u1ea5p Lv.20",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.20 v\u00e0 th\u1ed1ng tr\u1ecb gi\u1ea3i \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 30,
+        "point": 30,
+        "current": 1,
+        "todo": 20,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 10,
+        "name": "Chi\u1ebfn Binh Tu\u1ea7n",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng 3 tr\u1eadn \u0111\u1ea5u \u1edf b\u1ea5t k\u1ef3 ch\u1ebf \u0111\u1ed9 n\u00e0o.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 3,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 11,
+        "name": "S\u0103n B\u00e0n Tu\u1ea7n",
+        "desc": "Ghi 10 b\u00e0n th\u1eafng \u1edf m\u1ecdi ch\u1ebf \u0111\u1ed9 thi \u0111\u1ea5u.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 12,
+        "name": "\u0110ua X\u1ebfp H\u1ea1ng Tu\u1ea7n",
+        "desc": "Thi \u0111\u1ea5u 5 tr\u1eadn X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 45013,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 13,
+        "name": "Chinh Ph\u1ee5c Cup Tu\u1ea7n",
+        "desc": "Tham gia 1 gi\u1ea3i \u0111\u1ea5u Cup.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 1,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 14,
+        "name": "\u0110\u1ea1i Gia Tu\u1ea7n",
+        "desc": "S\u1edf h\u1eefu s\u1ed1 d\u01b0 EP t\u1eeb 10.000.000 tr\u1edf l\u00ean.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 100,
+        "point": 100,
+        "current": 0,
+        "todo": 10000000,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      }
+    ],
+    "next": [
+      {
+        "id": 0,
+        "name": "\u0110i\u1ec3m Danh H\u1eb1ng Ng\u00e0y",
+        "desc": "\u0110\u0103ng nh\u1eadp v\u00e0 qu\u1ea3n l\u00fd \u0111\u1ed9i b\u00f3ng h\u00e0ng ng\u00e0y.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 500000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 1,
+        "name": "Th\u1eed S\u1ee9c Thi \u0110\u1ea5u",
+        "desc": "Tham gia 1 tr\u1eadn \u0111\u1ea5u b\u1ea5t k\u1ef3 (PVP, Gi\u1ea3 L\u1eadp ho\u1eb7c \u0110\u1ea5u Gi\u1ea3i).",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 600000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 2,
+        "name": "Kh\u00e1t Khao Chi\u1ebfn Th\u1eafng",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng \u00edt nh\u1ea5t 1 tr\u1eadn \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 800000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 3,
+        "name": "\u0110\u1ea5u Tr\u01b0\u1eddng X\u1ebfp H\u1ea1ng",
+        "desc": "Tham gia tranh t\u00e0i \u1edf ch\u1ebf \u0111\u1ed9 \u0110\u1ea5u X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 4,
+        "name": "Chi\u1ebfn Thu\u1eadt B\u1eadc Th\u1ea7y",
+        "desc": "Thi\u1ebft l\u1eadp v\u00e0 l\u01b0u 6 chi\u1ebfn thu\u1eadt \u0111\u1ed9i b\u00f3ng ph\u00f9 h\u1ee3p.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 700000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 5,
+        "name": "N\u00e2ng C\u1ea5p \u0110\u1ed9i H\u00ecnh",
+        "desc": "N\u00e2ng c\u1ea5p v\u00e0 t\u0103ng c\u01b0\u1eddng s\u1ee9c m\u1ea1nh c\u1ea7u th\u1ee7 trong \u0111\u1ed9i.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 900000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 6,
+        "name": "M\u1edf R\u1ed9ng C\u00e2u L\u1ea1c B\u1ed9",
+        "desc": "S\u1edf h\u1eefu t\u1ed1i thi\u1ec3u 11 c\u1ea7u th\u1ee7 trong danh s\u00e1ch \u0111\u1ed9i b\u00f3ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 0,
+        "todo": 11,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 120000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 7,
+        "name": "HLV Tri\u1ec3n V\u1ecdng Lv.5",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.5 \u0111\u1ec3 m\u1edf kh\u00f3a k\u1ef9 n\u0103ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 150000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 8,
+        "name": "HLV Chuy\u00ean Nghi\u1ec7p Lv.10",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.10 kh\u1eb3ng \u0111\u1ecbnh v\u1ecb th\u1ebf.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 25,
+        "point": 25,
+        "current": 1,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 200000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 9,
+        "name": "HLV \u0110\u1eb3ng C\u1ea5p Lv.20",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.20 v\u00e0 th\u1ed1ng tr\u1ecb gi\u1ea3i \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 30,
+        "point": 30,
+        "current": 1,
+        "todo": 20,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 10,
+        "name": "Chi\u1ebfn Binh Tu\u1ea7n",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng 3 tr\u1eadn \u0111\u1ea5u \u1edf b\u1ea5t k\u1ef3 ch\u1ebf \u0111\u1ed9 n\u00e0o.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 3,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 11,
+        "name": "S\u0103n B\u00e0n Tu\u1ea7n",
+        "desc": "Ghi 10 b\u00e0n th\u1eafng \u1edf m\u1ecdi ch\u1ebf \u0111\u1ed9 thi \u0111\u1ea5u.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 12,
+        "name": "\u0110ua X\u1ebfp H\u1ea1ng Tu\u1ea7n",
+        "desc": "Thi \u0111\u1ea5u 5 tr\u1eadn X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 45013,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 13,
+        "name": "Chinh Ph\u1ee5c Cup Tu\u1ea7n",
+        "desc": "Tham gia 1 gi\u1ea3i \u0111\u1ea5u Cup.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 1,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 14,
+        "name": "\u0110\u1ea1i Gia Tu\u1ea7n",
+        "desc": "S\u1edf h\u1eefu s\u1ed1 d\u01b0 EP t\u1eeb 10.000.000 tr\u1edf l\u00ean.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 100,
+        "point": 100,
+        "current": 0,
+        "todo": 10000000,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      }
+    ],
+    "list": [
+      {
+        "id": 0,
+        "name": "\u0110i\u1ec3m Danh H\u1eb1ng Ng\u00e0y",
+        "desc": "\u0110\u0103ng nh\u1eadp v\u00e0 qu\u1ea3n l\u00fd \u0111\u1ed9i b\u00f3ng h\u00e0ng ng\u00e0y.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 500000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 1,
+        "name": "Th\u1eed S\u1ee9c Thi \u0110\u1ea5u",
+        "desc": "Tham gia 1 tr\u1eadn \u0111\u1ea5u b\u1ea5t k\u1ef3 (PVP, Gi\u1ea3 L\u1eadp ho\u1eb7c \u0110\u1ea5u Gi\u1ea3i).",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 600000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 2,
+        "name": "Kh\u00e1t Khao Chi\u1ebfn Th\u1eafng",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng \u00edt nh\u1ea5t 1 tr\u1eadn \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 800000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 3,
+        "name": "\u0110\u1ea5u Tr\u01b0\u1eddng X\u1ebfp H\u1ea1ng",
+        "desc": "Tham gia tranh t\u00e0i \u1edf ch\u1ebf \u0111\u1ed9 \u0110\u1ea5u X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 4,
+        "name": "Chi\u1ebfn Thu\u1eadt B\u1eadc Th\u1ea7y",
+        "desc": "Thi\u1ebft l\u1eadp v\u00e0 l\u01b0u 6 chi\u1ebfn thu\u1eadt \u0111\u1ed9i b\u00f3ng ph\u00f9 h\u1ee3p.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 700000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 5,
+        "name": "N\u00e2ng C\u1ea5p \u0110\u1ed9i H\u00ecnh",
+        "desc": "N\u00e2ng c\u1ea5p v\u00e0 t\u0103ng c\u01b0\u1eddng s\u1ee9c m\u1ea1nh c\u1ea7u th\u1ee7 trong \u0111\u1ed9i.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 20,
+        "point": 20,
+        "current": 1,
+        "todo": 1,
+        "complete": true,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "complete",
+        "reward": {
+          "count": 900000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 6,
+        "name": "M\u1edf R\u1ed9ng C\u00e2u L\u1ea1c B\u1ed9",
+        "desc": "S\u1edf h\u1eefu t\u1ed1i thi\u1ec3u 11 c\u1ea7u th\u1ee7 trong danh s\u00e1ch \u0111\u1ed9i b\u00f3ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 10,
+        "point": 10,
+        "current": 0,
+        "todo": 11,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 120000
+        },
+        "items": [],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 7,
+        "name": "HLV Tri\u1ec3n V\u1ecdng Lv.5",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.5 \u0111\u1ec3 m\u1edf kh\u00f3a k\u1ef9 n\u0103ng.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 15,
+        "point": 15,
+        "current": 1,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 150000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 8,
+        "name": "HLV Chuy\u00ean Nghi\u1ec7p Lv.10",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.10 kh\u1eb3ng \u0111\u1ecbnh v\u1ecb th\u1ebf.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 25,
+        "point": 25,
+        "current": 1,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 200000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 9,
+        "name": "HLV \u0110\u1eb3ng C\u1ea5p Lv.20",
+        "desc": "\u0110\u1ea1t c\u1ea5p \u0111\u1ed9 Hu\u1ea5n Luy\u1ec7n Vi\u00ean Lv.20 v\u00e0 th\u1ed1ng tr\u1ecb gi\u1ea3i \u0111\u1ea5u.",
+        "type": "daily",
+        "platform": "pc",
+        "gp": 30,
+        "point": 30,
+        "current": 1,
+        "todo": 20,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 10,
+        "name": "Chi\u1ebfn Binh Tu\u1ea7n",
+        "desc": "Gi\u00e0nh chi\u1ebfn th\u1eafng 3 tr\u1eadn \u0111\u1ea5u \u1edf b\u1ea5t k\u1ef3 ch\u1ebf \u0111\u1ed9 n\u00e0o.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 3,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28006,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 11,
+        "name": "S\u0103n B\u00e0n Tu\u1ea7n",
+        "desc": "Ghi 10 b\u00e0n th\u1eafng \u1edf m\u1ecdi ch\u1ebf \u0111\u1ed9 thi \u0111\u1ea5u.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 50,
+        "point": 50,
+        "current": 0,
+        "todo": 10,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 300000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 12,
+        "name": "\u0110ua X\u1ebfp H\u1ea1ng Tu\u1ea7n",
+        "desc": "Thi \u0111\u1ea5u 5 tr\u1eadn X\u1ebfp H\u1ea1ng 1v1.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 5,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 45013,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 13,
+        "name": "Chinh Ph\u1ee5c Cup Tu\u1ea7n",
+        "desc": "Tham gia 1 gi\u1ea3i \u0111\u1ea5u Cup.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 80,
+        "point": 80,
+        "current": 0,
+        "todo": 1,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 500000
+        },
+        "items": [
+          {
+            "itemid": 28001,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      },
+      {
+        "id": 14,
+        "name": "\u0110\u1ea1i Gia Tu\u1ea7n",
+        "desc": "S\u1edf h\u1eefu s\u1ed1 d\u01b0 EP t\u1eeb 10.000.000 tr\u1edf l\u00ean.",
+        "type": "weekly",
+        "platform": "pc",
+        "gp": 100,
+        "point": 100,
+        "current": 0,
+        "todo": 10000000,
+        "complete": false,
+        "completedat": "2026-11-01T00:00:00.000Z",
+        "state": "ongoing",
+        "reward": {
+          "count": 1000000
+        },
+        "items": [
+          {
+            "itemid": 82214068,
+            "count": 1
+          }
+        ],
+        "rewardedmp": 0,
+        "received": false
+      }
+    ]
+  },
+  "questRewards": [
+    {
+      "gp": 100,
+      "reward": [
+        {
+          "itemid": 1,
+          "count": 1000000
+        }
+      ],
+      "received": false
+    },
+    {
+      "gp": 200,
+      "reward": [
+        {
+          "itemid": 1,
+          "count": 2000000
+        }
+      ],
+      "received": false
+    },
+    {
+      "gp": 300,
+      "reward": [
+        {
+          "itemid": 1,
+          "count": 5000000
+        },
+        {
+          "itemid": 28001,
+          "count": 1
+        }
+      ],
+      "received": false
+    }
+  ]
+}

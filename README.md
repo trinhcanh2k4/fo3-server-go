@@ -131,8 +131,9 @@ sudo cp -r gamedata /opt/fo3-go/          # các bảng dữ liệu trích xuấ
 
 | Thư mục | Nội dung | Nguồn |
 |---|---|---|
-| `gamedata/` | `fifadb.sqlite` (CSDL cầu thủ — bắt buộc), `formations.json`, `club_catalog.json`, các file `*_tables.json`, `fa_prices.json`, `staff_catalog.json`… | **Không kèm trong repo này** — đây là dữ liệu trích xuất từ client game. Người tự host tự trích từ bản client của mình, hoặc lấy từ thư mục `gamedata/` của bản server Python cũ đang chạy của chính mình |
-| `responses/` | Các file JSON phản hồi tĩnh (`account_base.json`, `account_features.json`, `static_db_*.json`…) | Thư mục `responses/` của server Python |
+| `gamedata/` | `fifadb.sqlite` (CSDL cầu thủ — bắt buộc) | Lấy từ thư mục `gamedata/` của server Python FO3 hoặc trích từ bộ cài client của bạn — file nhị phân lớn nên không để trong repo |
+| `gamedata/` | Các bảng dữ liệu dạng text: `formations.json`, `club_catalog.json`, `fa_prices.json`, `legend_fo4_prices.json`, `world_market_values.json`, `staff_catalog.json`, các file `*_tables.json` | **Đã kèm trong repo này** — server đọc chúng lúc chạy, thiếu là lỗi |
+| `responses/` | Các file JSON phản hồi tĩnh (`account_base.json`, `account_features.json`, `static_db_*.json`…) | **Đã kèm trong repo này** |
 | `assets/` | Ảnh: `club_emblems/`, `externalAssets/shop/`, `externalAssets/staffs/` (chân dung HLV huấn luyện)… | Từ bản cài đặt server đang chạy hoặc bộ dữ liệu client |
 
 Đường dẫn được cấu hình qua biến môi trường (mặc định như dưới — xem mục 9):
