@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #1c2333;
+  background: #f4f6fb;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button {
+  border: 1px solid #c4cbdd; background: #fff; border-radius: 6px;
+  padding: 5px 10px; cursor: pointer; font-size: 13px;
+}
+button:hover { background: #eef2ff; }
+button.on { background: #2f5cff; color: #fff; border-color: #2f5cff; }
+button.danger { color: #b00020; border-color: #e3a7b0; }
+input {
+  border: 1px solid #c4cbdd; border-radius: 6px; padding: 6px 8px; font-size: 13px;
+}
+input.mini { width: 64px; }
+input.wide { flex: 1; min-width: 260px; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0; background: #fff; }
+th, td { border: 1px solid #e1e5ef; padding: 5px 8px; font-size: 13px; text-align: left; }
+th { background: #eef1f8; }
+.layout { display: flex; min-height: 100vh; }
+aside {
+  width: 220px; background: #141a2e; color: #dfe6ff; padding: 16px 12px;
+  display: flex; flex-direction: column; gap: 6px; flex-shrink: 0;
+}
+aside h2 { margin: 4px 6px 10px; font-size: 18px; }
+aside .status { font-size: 12px; margin: 0 6px 12px; line-height: 1.7; color: #aebadd; }
+button.nav { text-align: left; background: transparent; color: #dfe6ff; border: none; padding: 8px; }
+button.nav.on { background: #2f5cff; color: #fff; }
+main { flex: 1; padding: 18px 22px; overflow-x: auto; }
+.row { display: flex; gap: 8px; align-items: center; margin: 8px 0; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px; }
+.field { display: flex; gap: 6px; align-items: center; background: #fff; border: 1px solid #e1e5ef; padding: 6px 8px; border-radius: 8px; }
+.field span { font-size: 12px; color: #5a6480; min-width: 74px; }
+.field input { flex: 1; }
+.detail { background: #eef1f8; border: 1px solid #d7ddef; border-radius: 10px; padding: 12px 14px; margin-top: 12px; }
+.login { max-width: 340px; margin: 12vh auto; display: flex; flex-direction: column; gap: 10px; background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #d7ddef; }
+.login h1 { margin: 0 0 6px; font-size: 22px; }
+.err { color: #b00020; font-size: 13px; }
+code { background: #eef1f8; padding: 2px 6px; border-radius: 4px; }
+
+.subtabs button.active {
+  background: #2f6fed;
+  color: #fff;
+  font-weight: 600;
+}
+.detail h5 {
+  margin: 14px 0 6px;
+}

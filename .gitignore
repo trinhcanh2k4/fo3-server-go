@@ -1,0 +1,19 @@
+# Build output
+fo3-server
+fo3-server-new
+*.tgz
+
+# Web admin dependencies and build output
+web-admin/node_modules/
+web-admin/dist/
+
+# Local dev/test scripts and sync metadata
+probe_*.py
+restore_state.py
+patch_*.py
+*.muse-github-snapshot-sync.json
+
+# Secrets — never commit
+*.env
+master.key
+*.key
