@@ -27,6 +27,17 @@ func squadHasDuplicates(r interface {
 	return len(positions) >= 2 && len(seen) != len(positions)
 }
 
+// contractBlock refuses the request while a registered-squad
+// player is out of contract (life 0) — owner directive 2026-11-16:
+// an out-of-contract player may not take the field.
+func contractBlock(c *gin.Context, st game.State) bool {
+	if exp := game.ExpiredSquadPlayers(st); len(exp) > 0 {
+		writeJSON(c, map[string]any{"result": false, "reason": "PLAYER_CONTRACT_EXPIRED"})
+		return true
+	}
+	return false
+}
+
 func (s *Server) coachSquad(c *gin.Context) {
 	st, user, ok := s.loadState(c)
 	if !ok {
@@ -39,10 +50,12 @@ func (s *Server) coachSquad(c *gin.Context) {
 	team := game.TeamOf(st, slot)
 	sq := game.Map(req["squad"])
 	spidOf := map[string]int{}
+	lifeOf := map[string]int{}
 	if team != nil {
 		for _, raw := range game.List(team["players"]) {
 			if p := game.Map(raw); p != nil {
 				spidOf[game.IID(p)] = game.Int(p["spid"])
+				lifeOf[game.IID(p)] = game.PlayerLife(p)
 			}
 		}
 	}
@@ -63,6 +76,15 @@ func (s *Server) coachSquad(c *gin.Context) {
 				entry["starting"] = p["starting"]
 			}
 			positions = append(positions, entry)
+		}
+	}
+	// Out-of-contract players cannot be registered (owner directive
+	// 2026-11-16) — the save is refused until they are renewed or
+	// swapped out of the lineup.
+	for _, p := range positions {
+		if life, known := lifeOf[game.Str(p["id"])]; known && life == 0 {
+			writeJSON(c, map[string]any{"result": false, "reason": "PLAYER_CONTRACT_EXPIRED"})
+			return
 		}
 	}
 	// Production setting: duplicate players (same canonical identity,

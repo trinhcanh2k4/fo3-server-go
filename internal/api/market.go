@@ -490,11 +490,96 @@ func (s *Server) enhanceDo(c *gin.Context) {
 		key := strconv.Itoa(after)
 		ups[key] = game.Int(ups[key]) + 1
 	}
+	// Grade restore (enhance 2.5 popup): a failed attempt leaves a
+	// pending restore the player can buy back with EP via
+	// PUT /player/enhance2.5/restore; a success clears any older
+	// pending one. The popup reads _result.usepoint.{currency,price},
+	// _result.grantes and _result.resultgrade unguarded — missing
+	// keys throw #1010 (telemetry 886).
+	var restorePrice int64
+	if success {
+		delete(st, "enhance_restore")
+	} else {
+		restorePrice = int64(s.d.Roster.CardPrice(game.Int(pa["spid"]), before)) / 10
+		if restorePrice < 10000 {
+			restorePrice = 10000
+		}
+		st["enhance_restore"] = map[string]any{"pid": game.IID(pa),
+			"spid": game.Int(pa["spid"]), "before": before, "after": after,
+			"price": restorePrice}
+	}
 	_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
-	writeJSON(c, map[string]any{"result": true, "success": success, "grade": after,
-		"rgrade": after, "rprice": int64(s.d.Roster.CardPrice(game.Int(pa["spid"]), after)),
+	out := map[string]any{"result": true, "success": success, "grade": after,
+		"rgrade": after, "resultgrade": after,
+		"rprice": int64(s.d.Roster.CardPrice(game.Int(pa["spid"]), after)),
 		"attribPlus": game.GradeBoostAt(after) - game.GradeBoostAt(before),
+		"resources": s.d.Roster.CoachMeResources(st, slot, user)}
+	if !success {
+		out["usepoint"] = map[string]any{"currency": "EP", "price": restorePrice}
+		out["grantes"] = 0
+	}
+	writeJSON(c, out)
+}
+
+// enhanceRestore buys back the grade lost in the last failed enhance
+// (PUT /player/enhance2.5/restore, empty body). The pending record
+// comes from enhanceDo; it is consumed here, replaced by the next
+// enhance, or dropped by enhanceRestoreCancel when the popup closes
+// without restoring.
+func (s *Server) enhanceRestore(c *gin.Context) {
+	st, user, ok := s.loadState(c)
+	if !ok {
+		return
+	}
+	pend := game.Map(st["enhance_restore"])
+	if pend == nil {
+		writeJSON(c, map[string]any{"result": false, "reason": "NO_PENDING_RESTORE"})
+		return
+	}
+	slot := game.DefaultSlot(st)
+	team := game.TeamOf(st, slot)
+	var p map[string]any
+	for _, pv := range game.List(team["players"]) {
+		if q := game.Map(pv); q != nil && game.IID(q) == game.Str(pend["pid"]) {
+			p = q
+		}
+	}
+	if p == nil || game.GradeOf(p) != game.Int(pend["after"]) {
+		delete(st, "enhance_restore")
+		_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
+		writeJSON(c, map[string]any{"result": false, "reason": "RESTORE_EXPIRED"})
+		return
+	}
+	price := int64(game.Int(pend["price"]))
+	me := s.d.Roster.CoachMe(st, slot, user)
+	if game.Int64(game.Map(me["money"])["ep"]) < price {
+		writeJSON(c, map[string]any{"result": false, "reason": "NOT_ENOUGH_EP"})
+		return
+	}
+	game.AddEP(st, -price)
+	before := game.Int(pend["before"])
+	p["grade"] = before
+	delete(st, "enhance_restore")
+	_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
+	writeJSON(c, map[string]any{"result": true, "success": true,
+		"grade": before, "rgrade": before, "resultgrade": before,
+		"rprice": int64(s.d.Roster.CardPrice(game.Int(p["spid"]), before)),
+		"grantes": 0,
 		"resources": s.d.Roster.CoachMeResources(st, slot, user)})
+}
+
+// enhanceRestoreCancel drops the pending restore (the popup calls it
+// on close when the failed card was not restored).
+func (s *Server) enhanceRestoreCancel(c *gin.Context) {
+	st, user, ok := s.loadState(c)
+	if !ok {
+		return
+	}
+	if st["enhance_restore"] != nil {
+		delete(st, "enhance_restore")
+		_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
+	}
+	writeJSON(c, map[string]any{"result": true})
 }
 
 // --- Trade v1 + shared contract ------------------------------------------
@@ -601,7 +686,18 @@ func (s *Server) tradeContract(c *gin.Context) {
 	if offer["spid"] != nil {
 		s.d.Roster.AddPlayer(team, game.Int(offer["spid"]), game.Int(offer["grade"]))
 	}
-	game.AddEP(st, int64(game.Int(offer["ep"])))
+	// Anti-mint backstop (option A, 2026-11-16): trade EP shares
+	// the daily match-EP cap bucket instead of bypassing it.
+	if epAmt := int64(game.Int(offer["ep"])); epAmt > 0 {
+		ctx := c.Request.Context()
+		if granted, capped := game.ClampMatchDailyEP(ctx, s.d.Store, user.ID, epAmt); capped {
+			game.Audit(ctx, s.d.Store, "system", "trade.ep_capped", "",
+				map[string]any{"uid": user.ID, "wanted": epAmt, "granted": granted,
+					"cap": game.CfgI("match_daily_ep_cap", 0), "kind": "trade"})
+			epAmt = granted
+		}
+		game.AddEP(st, epAmt)
+	}
 	delete(st, "trade")
 	_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
 	writeJSON(c, map[string]any{"result": true,
@@ -625,6 +721,15 @@ func (s *Server) trade3Proposal(c *gin.Context) {
 			scout = &game.Scouts[i]
 			break
 		}
+	}
+	// PC/VIP scout gate (owner, 2026-11-16): the igr scout needs an
+	// active PC entitlement, the vip scout an active VIP one. The
+	// client greys them out via CoachScouters' lock flag; this check
+	// is the enforcement behind it.
+	if scout != nil && ((scout.Key == "igr" && !game.PCActive(st)) ||
+		(scout.Key == "vip" && !game.VIPActive(st))) {
+		writeJSON(c, map[string]any{"result": false, "reason": "SCOUT_LOCKED"})
+		return
 	}
 	sent := map[string]map[string]any{}
 	for _, pv := range game.List(req["playerids"]) {

@@ -139,6 +139,8 @@ func New(d Deps) *gin.Engine {
 	r.Any("/player/:pid/enhance2.5/:bid", s.enhanceDo)
 	r.Any("/player/:pid/enhance2.5/:bid/:boost/:guard", s.enhanceDo)
 	r.Any("/player/:pid/enhance2.5/:bid/:boost/:guard/:extra", s.enhanceDo)
+	r.Any("/player/enhance2.5/restore", s.enhanceRestore)
+	r.Any("/player/enhance2.5/restore/cancel", s.enhanceRestoreCancel)
 	r.POST("/players/trade/proposal", s.tradeProposal)
 	r.POST("/players/trade/contract", s.tradeContract)
 	r.POST("/trade3/proposal", s.trade3Proposal)

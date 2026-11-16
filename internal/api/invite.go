@@ -178,6 +178,10 @@ func (s *Server) roomJoin(c *gin.Context, st game.State, user *game.User) {
 	fail := func(reason string) {
 		writeJSON(c, map[string]any{"result": false, "reason": reason})
 	}
+	if exp := game.ExpiredSquadPlayers(st); len(exp) > 0 {
+		fail("PLAYER_CONTRACT_EXPIRED")
+		return
+	}
 	if hostCID == "" || hostCID == myCID {
 		fail("invalid roomid")
 		return

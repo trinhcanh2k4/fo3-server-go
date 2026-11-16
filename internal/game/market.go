@@ -163,8 +163,11 @@ func OfferList(st State) map[string]any {
 
 // --- Enhancement -----------------------------------------------------------
 
-// EnhanceRates ports ENHANCE_RATE (+g -> +(g+1) base chance).
-var EnhanceRates = []float64{1.0, 1.0, 0.81, 0.64, 0.50, 0.26, 0.15, 0.07, 0.04, 0.02, 0}
+// EnhanceRates ports ENHANCE_RATE (+g -> +(g+1) base chance),
+// raised 2026-11-16 at the owner's request: mid grades ~x1.3 and
+// the top end x3-4 vs the original table
+// {1, 1, .81, .64, .50, .26, .15, .07, .04, .02}, +10 stays rare.
+var EnhanceRates = []float64{1.0, 1.0, 0.90, 0.80, 0.65, 0.45, 0.30, 0.20, 0.12, 0.08, 0}
 
 // EnhanceRate ports enhance_rate incl. the enhancement_settings
 // override (gamedata/enhancement_settings.json success_percent).
@@ -402,14 +405,11 @@ func (r *Roster) TradeProps(st State, give []map[string]any) []any {
 		cards := pool[best]
 		pick := cards[mrand.Intn(len(cards))]
 		if i == 1 && boost == nil {
-			ep := total * (0.9 + mrand.Float64()*0.25)
-			if ep > total {
-				// Price stabilization (2026-11-15): the trade EP
-				// payout is capped at the cards' reference value —
-				// an exchange must not mint EP above the stabilized
-				// market band's upper edge.
-				ep = total
-			}
+			// Anti-mint (option A, 2026-11-16): the pure-EP offer
+			// pays 70–75% of the given cards' reference value —
+			// below the market's 80% listing floor, so buying
+			// cards just to trade them in is always a loss.
+			ep := total * (0.70 + mrand.Float64()*0.05)
 			props = append(props, map[string]any{"teamid": pick[1],
 				"ep": int(sig3(ep))})
 			continue
@@ -417,9 +417,6 @@ func (r *Roster) TradeProps(st State, give []map[string]any) []any {
 		g := weightedGrade(weights)
 		offer := map[string]any{"spid": pick[0], "grade": g, "teamid": pick[1],
 			"price": int64(r.CardPrice(pick[0], g))}
-		if i == 2 && boost == nil {
-			offer["ep"] = int(sig3(total * (0.05 + mrand.Float64()*0.15)))
-		}
 		if boost != nil {
 			offer["boost"] = boost
 		}
@@ -573,6 +570,16 @@ func (r *Roster) Trade3Props(st State, give []map[string]any, scout ScoutDef) []
 		lo += 0.2
 		hi += 0.2
 	}
+	// Anti-mint (option A, 2026-11-16): a scout exchange never
+	// returns more than the value given in — the effective ceiling
+	// is 1.0x, so reselling the received card (<=100% listing band,
+	// minus the 10% sale fee) always loses against the input.
+	if hi > 1.0 {
+		hi = 1.0
+	}
+	if lo > hi {
+		lo = hi
+	}
 	total := 0.0
 	for _, p := range give {
 		total += r.CardPrice(Int(p["spid"]), GradeOf(p))
@@ -590,7 +597,7 @@ func (r *Roster) Trade3Props(st State, give []map[string]any, scout ScoutDef) []
 		boosts = append(boosts, "vip")
 	}
 	props := []any{}
-	for i, boost := range boosts {
+	for _, boost := range boosts {
 		target := total * (lo + mrand.Float64()*(hi-lo))
 		k := sort.Search(len(pool), func(j int) bool { return float64(pool[j].price) >= target })
 		from := k - 10
@@ -604,13 +611,6 @@ func (r *Roster) Trade3Props(st State, give []map[string]any, scout ScoutDef) []
 		pick := pool[from+mrand.Intn(to-from)]
 		offer := map[string]any{"spid": pick.spid, "grade": pick.grade, "teamid": pick.teamid,
 			"price": pick.price}
-		if i == normal-1 && normal > 1 {
-			ep := int(total * (0.05 + mrand.Float64()*0.10))
-			if ep < 1000 {
-				ep = 1000
-			}
-			offer["ep"] = int(sig3(float64(ep)))
-		}
 		if boost != nil {
 			offer["boost"] = boost
 		}

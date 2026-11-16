@@ -734,6 +734,9 @@ func (s *Server) roomCreate(defType string) gin.HandlerFunc {
 		if !ok {
 			return
 		}
+		if contractBlock(c, st) {
+			return
+		}
 		ctx := c.Request.Context()
 		s.cancelRoomTimer(1, user.ID)
 		s.dissolveMatchedRoom(ctx, st, user)
@@ -927,6 +930,11 @@ func (s *Server) roomMatchmaking(c *gin.Context) {
 		_ = game.SaveState(c.Request.Context(), s.d.Store, user.ID, st)
 		writeJSON(c, map[string]any{"result": true,
 			"resources": []any{map[string]any{"uri": "/room/" + strconv.Itoa(rid), "body": room}}})
+		return
+	}
+	// Joining the queue is a match entry: an out-of-contract squad
+	// may not queue (a cancel above always goes through).
+	if contractBlock(c, st) {
 		return
 	}
 	room["stage"] = "searching"

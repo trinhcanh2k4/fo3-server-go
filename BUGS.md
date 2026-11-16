@@ -92,6 +92,16 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
   actually reached the playing stage (or a forfeit path), scores are
   range-validated — forged results at the preparation stage are
   discarded as no-contest.
+- Trade was an EP mint: the player-trade EP offer paid 90–100% of
+  reference value against an 80% market listing floor, scout
+  exchanges returned up to 1.7x the value given in, and trade EP
+  bypassed the daily caps. The EP offer now pays 70–75%, scout
+  returns are capped at 1.0x, bonus EP on card offers was removed,
+  and trade EP counts toward the daily match-EP cap.
+- PC/VIP scout trades were open to everyone: the served scout list
+  never locked them and the proposal handler never checked
+  entitlements. The PC (igr) and VIP scouts now lock — in the scout
+  list and server-side — unless the matching entitlement is active.
 
 ### Players, staff and Team Color
 - Generated players have no `_id`; matching/filtering players by
@@ -124,6 +134,32 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
   (trade / offer / release / enhance) open, so locked cards stayed
   selectable in those screens. The trade handlers now reject locked
   players and `lockinfo` declares all four protections on.
+- The post-match summary tooltip crashed (#1010) when hovering the
+  reward "?": the reward payload lacked the detail/description
+  fields the tooltip reads unconditionally. Both are now served in
+  full for every match type.
+- Opening a lottery box crashed (#1009): item definitions lacked
+  the `availables` list the random-card screen reads. Lottery item
+  definitions now carry it.
+- Cup matches could crash the settings screen (#1009) when the
+  stage flipped to playing: cup matches carried no `leagueparam`,
+  which that screen dereferences unguarded. Cup matches now carry
+  a leagueparam (cupqualifier in the group phase, cupfinal in the
+  knock-out rounds).
+- The enhance popup's Restore button crashed (#1010): results
+  lacked `usepoint`/`grantes`/`resultgrade` and the wallet lacked
+  `es`. All are served now, and restore itself is implemented:
+  after a failed enhancement, the lost grade can be bought back
+  for EP (10% of the card's reference value at the pre-attempt
+  grade, minimum 10,000 EP).
+- Enhancement success rates raised across the board (for example
+  +5→+6 from 26% to 45%, +9→+10 from 2% to 8%); the material-grade
+  bonus is unchanged.
+- Out-of-contract players and staff could still play. Squad saves
+  and match creation (cup, league, campaign, rooms, the ranked
+  queue) now refuse a registered player at 0 contract matches;
+  an appointed staff member at 0 vacates their slot in served
+  data — losing all boosts — until the contract is renewed.
 
 ### Accounts, security, website
 - Predictable legacy session tokens (`FO3-<user>-<uid>`) are only
@@ -214,6 +250,15 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
 - Siết kết toán trận: kết quả chỉ tính khi trận đã vào giai đoạn thi
   đấu (hoặc qua đường xử thua), tỉ số được kiểm tra trong biên hợp
   lệ — kết quả bịa ở khâu chuẩn bị bị hủy thành no-contest.
+- Trao đổi cầu thủ là lỗ hổng đúc EP: đề xuất EP trả 90–100% giá
+  tham chiếu trong khi sàn rao bán là 80%, trao đổi Scout trả tới
+  1,7× giá trị đưa vào, và EP từ trao đổi không chịu trần ngày. Nay
+  đề xuất EP trả 70–75%, Scout kẹp trần 1,0×, bỏ EP thưởng kèm thẻ,
+  và EP trao đổi tính vào trần EP trận/ngày.
+- Giao dịch Scout PC/VIP mở cho mọi tài khoản: danh sách scout
+  không khóa và handler không kiểm quyền. Nay scout PC (igr) và
+  VIP khóa cả ở dữ liệu hiển thị lẫn phía server khi tài khoản
+  không có quyền tương ứng.
 
 ### Cầu thủ, HLV (staff) và Màu đội (Team Color)
 - Cầu thủ được tạo (generated) không có `_id`; lọc cầu thủ theo
@@ -244,6 +289,29 @@ vận hành và người phát triển tiếp không phải đào lại cùng m�
   client (trao đổi / rao bán / giải phóng / cường hóa) đều mở, thẻ
   đã khóa vẫn chọn được ở các màn đó. Nay handler trao đổi từ chối
   cầu thủ đang khóa và `lockinfo` bật cả 4 cờ bảo vệ.
+- Tooltip ở màn tổng kết trận crash (#1010) khi rê chuột vào dấu
+  "?": dữ liệu thưởng thiếu các trường detail/description mà
+  tooltip đọc vô điều kiện. Nay trả đủ cho mọi loại trận.
+- Mở hộp xổ số crash (#1009): định nghĩa vật phẩm thiếu danh sách
+  `availables` mà màn thẻ ngẫu nhiên đọc. Nay định nghĩa vật phẩm
+  xổ số có kèm trường này.
+- Trận cup có thể crash màn cài đặt (#1009) khi trận chuyển sang
+  giai đoạn thi đấu: trận cup không có `leagueparam` mà màn đó đọc
+  không kèm kiểm tra null. Nay trận cup có leagueparam
+  (cupqualifier ở vòng bảng, cupfinal ở vòng knock-out).
+- Nút Restore trong popup cường hóa crash (#1010): kết quả thiếu
+  `usepoint`/`grantes`/`resultgrade` và ví thiếu `es`. Nay trả đủ,
+  và tính năng khôi phục đã được cài thật: sau khi cường hóa thất
+  bại, có thể mua lại cấp đã mất bằng EP (10% giá tham chiếu của
+  thẻ ở cấp trước khi nâng, tối thiểu 10.000 EP).
+- Tỉ lệ cường hóa được nâng toàn bảng (ví dụ +5→+6 từ 26% lên
+  45%, +9→+10 từ 2% lên 8%); bonus theo cấp thẻ nguyên liệu giữ
+  nguyên.
+- Cầu thủ và HLV hết hợp đồng vẫn ra sân được. Nay lưu đội hình và
+  tạo trận (cup, league, campaign, phòng, hàng chờ xếp hạng) đều
+  từ chối nếu còn cầu thủ đăng ký ở 0 trận hợp đồng; HLV đang bổ
+  nhiệm ở 0 trận sẽ rời ghế trong dữ liệu trả về — mất mọi boost —
+  cho tới khi gia hạn.
 
 ### Tài khoản, bảo mật, website
 - Token phiên legacy đoán được (`FO3-<user>-<uid>`) chỉ còn hiệu

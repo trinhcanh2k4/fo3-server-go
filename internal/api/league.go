@@ -213,6 +213,9 @@ func (s *Server) leagueMatch(sim bool) gin.HandlerFunc {
 		ctx := c.Request.Context()
 		var req map[string]any
 		_ = c.ShouldBindJSON(&req)
+		if contractBlock(c, st) {
+			return
+		}
 		lg := game.Map(st["league2"])
 		if lg == nil || game.Map(lg["league"]) == nil {
 			writeJSON(c, map[string]any{"result": false, "reason": "LEAGUE_FAIL"})

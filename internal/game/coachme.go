@@ -560,6 +560,24 @@ func (r *Roster) OwnedTeam(raw map[string]any) map[string]any {
 		}
 		team["staffroles"] = roles
 	}
+	// Out-of-contract staff may not serve (owner directive
+	// 2026-11-16): an appointed staff at life 0 vacates the slot in
+	// the served copy, so no boost reaches /coach/me or any match
+	// body. The stored appointment is untouched — renewing the
+	// contract puts them straight back on the bench.
+	expiredStaff := map[string]bool{}
+	for _, sv := range List(team["staffs"]) {
+		if s := Map(sv); s != nil && StaffLife(s, RecontractStaffMaxLife) == 0 {
+			expiredStaff[Str(s["_id"])] = true
+		}
+	}
+	if len(expiredStaff) > 0 {
+		for _, rv := range List(team["staffroles"]) {
+			if r := Map(rv); r != nil && expiredStaff[Str(r["staffid"])] {
+				r["staffid"] = nil
+			}
+		}
+	}
 	if team["staffroleidx"] == nil {
 		team["staffroleidx"] = 1
 	}
@@ -683,13 +701,23 @@ var scouts = []struct {
 }
 
 // CoachScouters is hc.coach_scouters (cooldowns are all zero here).
+// The PC/VIP scouts are entitlement-gated (owner, 2026-11-16): the
+// igr scout locks without PC, the vip scout without VIP; the
+// trade3Proposal handler enforces the same gate server-side.
 func CoachScouters(s State, slot int) []any {
 	out := []any{}
 	for _, sc := range scouts {
+		lock := false
+		switch sc.key {
+		case "igr":
+			lock = !PCActive(s)
+		case "vip":
+			lock = !VIPActive(s)
+		}
 		e := map[string]any{
 			"key": sc.key, "scoutid": sc.key,
 			"scoutername": sc.sid + "_NAME", "scouterdesc": sc.sid + "_DESC",
-			"lock": false,
+			"lock": lock,
 		}
 		if sc.quest != nil {
 			e["quest"] = sc.quest
@@ -884,7 +912,7 @@ func (r *Roster) CoachMe(s State, slot int, user *User) map[string]any {
 		"id": coachID, "name": Str(coach["name"]), "slot": slot, "teamid": teamid,
 		"team": team, "hiderank": false,
 		"profile": profile,
-		"money": map[string]any{"ep": ep, "cash": 0, "mp": 0, "useable_mp": 0,
+		"money": map[string]any{"ep": ep, "cash": 0, "mp": 0, "useable_mp": 0, "es": 0,
 			"mpdata": map[string]any{"point": 0, "until": "2030-01-01T00:00:00.000Z"}},
 		"igr": PCActive(s), "vipDetail": vipDetailOf(s), "vipExpireAt": EntitlementUntil(s, "vip"),
 		"vipStatus": vipStatusOf(s),

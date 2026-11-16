@@ -605,7 +605,18 @@ func (r *Roster) MatchReward(st State, stats map[string]any) map[string]any {
 		pexp = int(float64(pexp)*mult + 0.5)
 	}
 	reward := func(n int) map[string]any {
-		return map[string]any{"total": n, "detail": map[string]any{"base": n, "extra": 0}}
+		// The client's post-match reward tooltips (ExpRewardTooltip)
+		// read detail.* and description.* unconditionally — a missing
+		// "description" object throws #1010 on hover (telemetry 859,
+		// 2026-11-15). Every component besides the match/base amount
+		// is zero on this server.
+		return map[string]any{"total": n,
+			"detail": map[string]any{"match": n, "base": n, "winpeer": 0,
+				"items": 0, "events": 0, "premium": 0, "club": 0, "extra": 0,
+				"itemBoost": 0, "awards": 0},
+			"description": map[string]any{"igr": 0, "vip": 0, "qqvip": 0,
+				"qqgamevip": 0, "qqgamevvip": 0, "rtw": 0, "derby": 0,
+				"rival": 0, "league": 0, "tgp1": 0, "tgp2": 0, "tgp3": 0}}
 	}
 	coach := CoachBySlot(st, DefaultSlot(st))
 	epBefore := int64(0)
@@ -674,23 +685,16 @@ func (r *Roster) MatchReward(st State, stats map[string]any) map[string]any {
 }
 
 // ConsumeMatchContracts ports hc.consume_match_contracts.
-func ConsumeMatchContracts(st State) int {
-	team := TeamOf(st, DefaultSlot(st))
-	if team == nil {
-		return 0
-	}
+// registeredSquadIDs is the set ConsumeMatchContracts burns: the
+// players named in the squad positions, or — with no registered
+// squad — the whole first team.
+func registeredSquadIDs(team map[string]any, players []map[string]any) map[string]bool {
 	registered := map[string]bool{}
 	if squad := Map(team["squad"]); squad != nil {
 		for _, pv := range List(squad["positions"]) {
 			if id := Str(Map(pv)["id"]); id != "" {
 				registered[id] = true
 			}
-		}
-	}
-	players := []map[string]any{}
-	for _, pv := range List(team["players"]) {
-		if p := Map(pv); p != nil {
-			players = append(players, p)
 		}
 	}
 	if len(registered) == 0 {
@@ -700,6 +704,46 @@ func ConsumeMatchContracts(st State) int {
 			}
 		}
 	}
+	return registered
+}
+
+func teamPlayers(team map[string]any) []map[string]any {
+	players := []map[string]any{}
+	for _, pv := range List(team["players"]) {
+		if p := Map(pv); p != nil {
+			players = append(players, p)
+		}
+	}
+	return players
+}
+
+// ExpiredSquadPlayers lists the registered-squad players whose
+// contract has run out (life 0). Owner directive 2026-11-16: an
+// out-of-contract player may not take the field — the API blocks
+// squad saves and match creation while one is registered.
+func ExpiredSquadPlayers(st State) []map[string]any {
+	team := TeamOf(st, DefaultSlot(st))
+	if team == nil {
+		return nil
+	}
+	players := teamPlayers(team)
+	registered := registeredSquadIDs(team, players)
+	out := []map[string]any{}
+	for _, p := range players {
+		if registered[IID(p)] && PlayerLife(p) == 0 {
+			out = append(out, p)
+		}
+	}
+	return out
+}
+
+func ConsumeMatchContracts(st State) int {
+	team := TeamOf(st, DefaultSlot(st))
+	if team == nil {
+		return 0
+	}
+	players := teamPlayers(team)
+	registered := registeredSquadIDs(team, players)
 	consumed := 0
 	for _, p := range players {
 		if !registered[IID(p)] {

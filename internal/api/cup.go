@@ -444,6 +444,9 @@ func (s *Server) cupMatch(c *gin.Context) {
 		writeJSON(c, map[string]any{"result": false, "reason": "already played match"})
 		return
 	}
+	if contractBlock(c, st) {
+		return
+	}
 	slot := game.DefaultSlot(st)
 	me := s.d.Roster.CoachMe(st, slot, user)
 	worldcup := game.Str(cup["mode"]) == "worldcup"
@@ -491,6 +494,17 @@ func (s *Server) cupMatch(c *gin.Context) {
 	if game.Str(phase["system"]) == "knock-out" {
 		gs["drawMode"] = 2
 	}
+	// LeagueCupGameSettingScreen.onPlaying reads
+	// MatchProxy.leagueparam.matchtype through an unguarded ||
+	// (null leagueparam -> #1009 when the stage flips to playing,
+	// telemetry 854). Mirror the league builder's leagueparam.
+	lpType := "cupqualifier"
+	if game.Str(phase["system"]) == "knock-out" {
+		lpType = "cupfinal"
+	}
+	match["leagueparam"] = map[string]any{"matchtype": lpType,
+		"round": game.Int(cur["round"]), "home": home, "away": away,
+		"knockoutlevel": game.Int(cur["phase"])}
 	st["match"] = match
 	st["cup_pending"] = map[string]any{"id": match["id"], "cupid": c.Param("cupid"),
 		"home": home, "away": away}

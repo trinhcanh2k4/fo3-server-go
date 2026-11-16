@@ -599,6 +599,15 @@ func (r *Roster) useItemDef(itemid int, raw ItemDefRaw) map[string]any {
 			out["count"] = map[string]any{"min": Int(rng[0]), "max": Int(rng[1])}
 		}
 	}
+	if raw.Type == "ITEM_LOTTERY" {
+		// TeamManagementRandomCardScreen reads staticdata.availables
+		// unguarded (setCandidateCard takes its length) — a missing
+		// key leaves it null and throws #1009 when the lottery box
+		// screen opens (telemetry 862/893/898). The flip flow itself
+		// runs through the open buttons + /item/<id>/use, so an empty
+		// candidate list is safe.
+		out["availables"] = []any{}
+	}
 	bunches := []any{}
 	for _, n := range packBunches {
 		bunches = append(bunches, map[string]any{"bunch": n, "price": ShopPrice(float64(r.UseItemPrice(itemid)), n)})
