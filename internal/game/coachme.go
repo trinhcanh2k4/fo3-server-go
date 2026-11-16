@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	StartEP    = 1000000
+	StartEP    = 1000000000
 	VIPDetail  = 2
 	MaxPlayers = 200
 	FirstTeamMax = 36
@@ -254,9 +254,6 @@ func (r *Roster) repairSquad(team map[string]any) {
 			}
 			card = cands[0]
 			for _, p := range cands[1:] {
-				ct, pt := !p["team2"].(bool), !card["team2"].(bool)
-				_ = ct
-				_ = pt
 				if GradeOf(p) > GradeOf(card) || (GradeOf(p) == GradeOf(card) && r.PlayerOvr(p) > r.PlayerOvr(card)) {
 					card = p
 				}

@@ -1276,7 +1276,7 @@ func (s *Server) matchCampaign(c *gin.Context) {
 		ai = 241
 	}
 	userObj := map[string]any{"id": me["id"], "name": me["name"], "levelinfo": me["levelinfo"]}
-	match := game.NewMatch("League_league",
+	match := game.NewMatch("League_2_league",
 		s.d.Roster.MatchSide(game.TeamOf(st, slot), teamid, userObj, s.d.Roster.TacticsOf(st)),
 		s.d.Roster.MatchSide(s.d.Roster.RosterTeam(ai), ai, nil, nil), nil)
 	game.ApplyBallAvailables(match, s.d.Roster.BallAvailables(st))
